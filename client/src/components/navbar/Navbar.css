@@ -1,0 +1,20 @@
+#Navbar {
+    background: #000878;
+}
+
+#Navbar a {
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+#Navbar a.active {
+    background: #343978;
+}
+
+#Navbar a i {
+    font-size: 2rem;
+}

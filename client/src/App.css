@@ -1,0 +1,8 @@
+.App {
+    display: grid;
+    grid-template-columns: 70px auto;
+    height: 100vh;
+}
+.App #content {
+    padding: 5px 10px;
+}

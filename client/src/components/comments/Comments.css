@@ -1,0 +1,40 @@
+#Comments ul {
+    list-style: none;
+}
+
+#Comments li {
+    display: grid;
+    grid-template-columns: auto 200px 70px;
+    grid-column-gap: 5px;
+    padding: 6px 0;
+}
+
+#Comments .delete {
+    color: #972929;
+    cursor: pointer;
+}
+
+#Comments .delete:hover {
+    color: #c53232;
+}
+
+#Comments a {
+    text-decoration: none;
+    color: #28288f;
+}
+
+#Comments .icons a:hover {
+    color: #4242da;
+}
+
+#Comments .comments {
+    cursor: pointer;
+}
+
+#Comments .comments a:hover {
+    color: #221E0E;
+}
+
+#Comments div.user a {
+    color: grey;
+}

@@ -1,0 +1,55 @@
+#Users ul {
+    list-style: none;
+}
+
+#Users li {
+    display: grid;
+    grid-template-columns: auto 70px;
+    padding: 6px 0;
+}
+
+#Users .delete {
+    color: #972929;
+    cursor: pointer;
+}
+
+#Users .delete:hover {
+    color: #c53232;
+}
+
+#Users a {
+    text-decoration: none;
+    color: #28288f;
+}
+
+#Users .icons a:hover {
+    color: #4242da;
+}
+
+#Users .names {
+    cursor: pointer;
+}
+
+#Users .names a:hover {
+    color: #221E0E;
+}
+
+#Users .header {
+    display: grid;
+    grid-template-columns: auto 100px;
+}
+
+#Users .header a {
+    margin: 5px auto;
+    text-transform: uppercase;
+    font-size: .8rem;
+    border: 1px solid #4242da;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+#Users .header a:hover {
+    color: #fff;
+    background: #4242da;
+    box-shadow: -1px 0px 5px -2px #000;
+}

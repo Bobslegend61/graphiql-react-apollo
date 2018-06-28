@@ -1,0 +1,65 @@
+.UserDetails ul {
+    list-style: none;
+    text-align: center;
+    margin: 10px auto;
+    width: 100%;
+}
+
+.UserDetails ul li {
+    max-width: 100%;
+    margin: 15px auto;
+    border: 1px solid rgb(163, 160, 160);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 3px 3px -1px grey;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.UserDetails a.edit {
+    display: block;
+    text-align: right;
+    width: 80%;
+    margin: 50px auto 10px auto;
+}
+
+.UserDetails a.edit i {
+    background: rgb(134, 127, 127);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.UserDetails a.edit i:hover {
+    box-shadow: 0px 0px 4px #000;
+    background: #7481FF;
+}
+
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+sub {
+    font-size: .8rem;
+}
+
+small {
+    color: #7481FF;
+    font-size: .7rem;
+}
+
+
+@media (min-width: 800px) {
+    .UserDetails .header {
+        display: grid;
+        grid-template-columns: auto 200px;
+    }
+
+    .UserDetails ul li {
+        max-width: 50%;
+    }
+}
